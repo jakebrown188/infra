@@ -15,5 +15,3 @@ I built this server in late 2024. Below is the build list and resources for each
 | Storage (HDD) |       [Seagate IronWolf Pro ST18000NE000 18TB HDD](https://www.seagate.com/www-content/datasheets/pdfs/ironwolf-pro-18tb-DS1914-14-2007US-en_US.pdf) (x2)      |   [link](./docs/Seagate%20IronWolf%20Pro%20ST18000NE000%2018TB%20HDD/)   |
 
 *To modify this table, upload [this file](./home_server_tablesgenerator_download.tgn) to [Tables Generator](https://www.tablesgenerator.com/markdown_tables)*
-
-[link](./docs/TEAMGROUP%20MP33%20256GB%20M.2/)
