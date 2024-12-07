@@ -42,3 +42,7 @@ According to [this](https://superuser.com/a/681823) StackExchange post (and some
   ```
   badblocks -b 8192 -wsv -c 64 -e 1 -o burnin-${DISK_MODEL}_${SERIAL_NUMBER}.log ${DRIVE_PATH}
   ```
+
+## Resources
+- Perfect Media Server [New Drive Burn-In Rituals](https://perfectmediaserver.com/06-hardware/new-drive-burnin/)
+  - My burn-in procedure was taken from here
