@@ -1,4 +1,4 @@
-# Learning ZSF
+# Learning ZFS
 
 On my journey to learn ZFS, I've come across some very helpful articles. Below I've included them in the order I think would be most helpful. Also, for each article I included an archived copy.
 
