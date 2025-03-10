@@ -1,0 +1,14 @@
+---
+- name: Setup basic packages
+  hosts: main-server
+  become: true
+  tasks:
+   - name: Install packages
+     ansible.builtin.package:
+      name:
+       - htop
+       - vim
+       - curl
+       - wget
+       - git
+       - tmux
