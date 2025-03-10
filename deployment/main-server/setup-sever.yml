@@ -12,3 +12,4 @@
        - wget
        - git
        - tmux
+       - zfsutils-linux
