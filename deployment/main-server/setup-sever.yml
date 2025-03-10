@@ -13,3 +13,4 @@
        - git
        - tmux
        - zfsutils-linux
+       - btm
