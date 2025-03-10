@@ -2,3 +2,5 @@
 ~$*
 .obsidian
 roles/
+.vscode
+.ansible
