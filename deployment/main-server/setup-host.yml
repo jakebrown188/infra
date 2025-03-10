@@ -1,0 +1,15 @@
+---
+- name: Setup localhost for deployment
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: Ensure ./roles directory exists
+      ansible.builtin.file:
+        path: "{{ playbook_dir }}/roles"
+        state: directory
+        mode: '0700'
+
+    - name: Download Ansible Galaxy roles
+      ansible.builtin.command: ansible-galaxy install -r requirements.yml -p ./roles
+      register: command_output
+      changed_when: command_output.rc != 0
