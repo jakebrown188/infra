@@ -1,6 +1,6 @@
 ---
 - name: Setup basic packages
-  hosts: main-server
+  hosts: test-server
   become: true
   tasks:
    - name: Install packages
@@ -14,3 +14,4 @@
        - tmux
        - zfsutils-linux
        - btm
+       - gparted
