@@ -7,3 +7,16 @@ all:
       ansible_user: jake
       ansible_ssh_private_key_file: ~/.ssh/keys/homelab-ssh-key
       ansible_python_interpreter: /usr/bin/python3
+    test-server:
+      ansible_host: 100.84.55.89
+      ansible_port: 22
+      ansible_user: parallels
+      ansible_ssh_private_key_file: ~/.ssh/keys/testing-ssh-key
+      ansible_python_interpreter: /usr/bin/python3
+      ansible_become_pass: !vault |
+          $ANSIBLE_VAULT;1.1;AES256
+          37383362333264323565343738343538646365666233663865303931653332363666656466643039
+          3762323661333239313466303931373638306639633432360a373037653966353432616437333166
+          32363636623866363638636265643731363431353265373764333363643339353261643037356432
+          6364323231313831610a313732316564623937373166333135363137353837376231616662613562
+          34653030646432303839396661316166363863363764333336656330316534313861
